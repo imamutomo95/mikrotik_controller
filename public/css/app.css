@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900);.login-container-logo {
+  margin-bottom: 0;
+}
+
+.login-container-logo img {
+  width: 160px;
+}
+
+.login-container {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-container .form-label-login {
+  color: #b2b2b2;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+}
+
+.login-container .form-label-input {
+  color: #b2b2b2;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  background: rgba(229, 229, 229, 0.81);
+  border: 1px solid #D5D5D5;
+  border-radius: 2px;
+}
+
+.login-container .form-label-input:hover,
+.login-container .form-label-input:focus {
+  background: #ffffff;
+  color: #999999;
+}
+
+.login-container .form-rememberme {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #b8b8b8;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+}
+
+.login-container .form-btnlogin {
+  background: #EB008B;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.login-container .form-btnlogin:hover,
+.login-container .form-btnlogin:focus {
+  background: #db0280;
+}
+
+.navbarsearch {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 10px rgba(179, 179, 179, 0.25);
+          box-shadow: 0px 2px 10px rgba(179, 179, 179, 0.25);
+}
+
+.navbarsearch .navbarformsearch {
+  color: #b2b2b2;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  border: 0;
+  border-radius: 2px;
+}
+
+.navbarsearch .navbarformsearch:hover,
+.navbarsearch .navbarformsearch:focus {
+  background: #ffffff;
+  color: #999999;
+}
+
+.mainnav {
+  background: #1e1e1e;
+}
+
+.mainnav .submainnav {
+  background: #1e1e1e;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mainnav .submainnav .nav-icon-offcanvas {
+  color: #ffffff;
+}
+
+.mainnav .submainnav .nav-icon-offcanvas:hover {
+  color: #ffffff;
+}
+
+.mainnav .logo {
+  width: 100px;
+}
+
+.mainnav ul li a {
+  color: #b2b2b2;
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  text-shadow: none !important;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.mainnav ul li a:hover,
+.mainnav ul li a:focus {
+  color: #ffffff;
+}
+
+.mainnav ul li .active {
+  background: #121212;
+  color: #ffffff;
+}
+
+.mainnav .profile_info {
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  color: #666666;
+}
+
+.mainnav .profile_info .canvas_picture {
+  width: 140px;
+  overflow: hidden;
+}
+
+.mainnav .profile_info .canvas_picture img {
+  height: 146px;
+}
+
+.mainnav .profile_info .profile_name {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.mainnav .profile_info .profile_name a {
+  color: #aaaaaa;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mainnav .profile_info .profile_name a:hover {
+  color: #dddddd;
+}
+
+.mainnav .profile_info .profile_privilege {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #aaaaaa;
+}
+
+.card {
+  border-radius: 4px;
+}
+
+.card-header {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  color: #666666;
+}
+
+.card-body .card-heading {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  color: #666666;
+}
+
+.card-body .card-subtext {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+}
+
+.card-body .rx-byte {
+  color: #3490dc;
+}
+
+.card-body .tx-byte {
+  color: #38c172;
+}
+
+.box_deviceinfo {
+  border-radius: 2px;
+}
+
+.box_deviceinfo .device_heading {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+}
+
+.box_deviceinfo .device_value {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.4px;
+}
+
+html,
+body {
+  background: #ffffff;
+  font-family: 'Nunito', sans-serif;
+}
+

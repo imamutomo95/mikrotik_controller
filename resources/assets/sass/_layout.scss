@@ -1,0 +1,174 @@
+// login container
+.login-container-logo {
+  margin-bottom: 0;
+  img {
+    width: 160px;
+  }
+}
+.login-container {
+  box-shadow: none;
+  .form-label-login {
+    color: #b2b2b2;
+    font-family: $font-primary;
+    font-size: 14px;
+    @include fontstyle( 400, normal, normal, 0.4px );
+  }
+  .form-label-input {
+    color: #b2b2b2;
+    font-size: 14px;
+    font-family: $font-primary;
+    @include fontstyle( 400, normal, normal, 0.4px );
+    background: rgba(229, 229, 229, 0.81);
+    border: 1px solid #D5D5D5;
+    border-radius: 2px;
+    &:hover, &:focus {
+      background: #ffffff;
+      color: #999999;
+    }
+  }
+  .form-rememberme {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b8b8b8;
+    font-family: $font-primary;
+    font-size: 14px;
+    @include fontstyle( 400, normal, normal, 0.4px );
+  }
+  .form-btnlogin {
+    background: #EB008B;
+    color: #ffffff;
+    font-family: $font-primary;
+    font-size: 13px;
+    @include fontstyle( 400, normal, normal, 0.4px );
+    border: 0;
+    border-radius: 2px;
+    &:hover, &:focus {
+      background: #db0280;
+    }
+  }
+}
+// login container
+
+.navbarsearch {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(179, 179, 179, 0.25);
+  .navbarformsearch {
+    color: #b2b2b2;
+    font-size: 14px;
+    font-family: $font-primary;
+    @include fontstyle( 400, normal, normal, 0.4px );
+    border: 0;
+    border-radius: 2px;
+    &:hover, &:focus {
+      background: #ffffff;
+      color: #999999;
+    }
+  }
+}
+
+.mainnav {
+  background: #1e1e1e;
+  .submainnav {
+    background: #1e1e1e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    .nav-icon-offcanvas {
+      color: #ffffff;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+  .logo { width: 100px; }
+  ul {
+    li {
+      a {
+        color: #b2b2b2;
+        font-size: 13px;
+        font-family: $font-primary;
+        @include fontstyle( 600, normal, normal, 0.4px );
+        text-shadow: none !important;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        &:hover, &:focus {
+          color: #ffffff;
+        }
+      }
+      .active {
+        background: #121212;
+        color: #ffffff;
+      }
+    }
+  }
+  .profile_info {
+    font-size: 13px;
+    font-family: $font-primary;
+    @include fontstyle( 600, normal, normal, 0.4px );
+    color: #666666;
+    .canvas_picture {
+      width: 140px;
+      img { height: 146px; }
+      overflow: hidden;
+    }
+    .profile_name {
+      font-size: 18px;
+      font-family: $font-primary;
+      @include fontstyle( 600, normal, normal, 0.4px );
+      text-align: center;
+      a {
+        color: #aaaaaa;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          color: #dddddd;
+        }
+      }
+    }
+    .profile_privilege {
+      font-size: 14px;
+      font-family: $font-primary;
+      @include fontstyle( 400, normal, normal, 0.4px );
+      text-align: center;
+      color: #aaaaaa;
+    }
+  }
+}
+
+.card {
+  border-radius: 4px;
+}
+
+.card-header {
+  font-family: $font-primary;
+  font-size: 20px;
+  @include fontstyle( 600, normal, normal, 0.4px );
+  color: #666666;
+}
+.card-body {
+  .card-heading {
+    font-family: $font-primary;
+    font-size: 16px;
+    @include fontstyle( 600, normal, normal, 0.4px );
+    color: #666666;
+  }
+  .card-subtext {
+    font-family: $font-primary;
+    font-size: 24px;
+    @include fontstyle( 700, normal, normal, 0.4px );
+  }
+  .rx-byte { color: $blue; }
+  .tx-byte { color: $green; }
+}
+
+.box_deviceinfo {
+  border-radius: 2px;
+  .device_heading {
+    font-family: $font-primary;
+    font-size: 22px;
+    @include fontstyle( 400, normal, normal, 0.4px );
+  }
+  .device_value {
+    font-family: $font-primary;
+    font-size: 24px;
+    @include fontstyle( 700, normal, normal, 0.4px );
+  }
+}
